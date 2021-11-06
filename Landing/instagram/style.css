@@ -91,3 +91,34 @@ section#firstscreen div h5{
     line-height: 1.55;
     text-align: center;
 }
+
+/* Second block */
+#secondscreen{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 20fr;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.textcontent2{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    align-content: center;
+}
+
+section#secondscreen div.textcontent2 span{
+    display: inline-block;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 42px; 
+    line-height: 1.23;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: rgb(255, 102, 0);
+}
