@@ -4,3 +4,25 @@ body{
     margin: 0;
     background-color:white; 
 }
+
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 102, 0);
+    position: fixed;
+    /* margin-top: -50px; */
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
+
+header nav a{
+    color: rgb(24, 21, 21);
+    text-decoration: none;
+    margin: auto;
+}
