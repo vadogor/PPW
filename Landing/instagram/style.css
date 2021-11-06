@@ -10,7 +10,7 @@ body{
     width: 100%;
     background-color: rgb(255, 102, 0);
     position: fixed;
-    /* margin-top: -50px; */
+    margin-top: -50px;
 }
 
 .navigation{
@@ -25,4 +25,69 @@ header nav a{
     color: rgb(24, 21, 21);
     text-decoration: none;
     margin: auto;
+}
+
+/* first block */
+#firstscreen{
+    margin-top: 50px;
+    width: 100%;
+    height: 95vh;
+    background-image: url(assets/images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textcontent1{
+    display: grid;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+section#firstscreen div span{
+    display: inline-block;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    font-size: 65px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+section#firstscreen div h5{
+    color: white;
+    font-size: 22px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.button{
+    display: grid;
+    align-content: center;
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: #ff6600;
+    margin-bottom: 1000px;
+}
+
+.but{
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: 600;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.55;
+    text-align: center;
 }
