@@ -122,3 +122,73 @@ section#secondscreen div.textcontent2 span{
     font-weight: 600;
     color: rgb(255, 102, 0);
 }
+
+section#secondscreen img{
+    width: 200px;
+    height: auto;
+
+}
+.card1{
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.cardimg{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+.categoryname{
+    display: grid;
+    color: black;
+    font-size: 30px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.descriptiontext{
+    padding-left: 40px;
+    padding-right: 6px;
+    font-weight: 400;
+    font-family: Roboto;
+    text-align: left;
+    font-size: 14pt;
+}
+
+.description{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.objective1{
+    margin-top: 5x;
+    margin-bottom: 2px;
+}
+
+.objective2{
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.objective3{
+    margin-top: 0px;
+}
+
+.card2{
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.card3{
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
