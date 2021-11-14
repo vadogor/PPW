@@ -238,3 +238,54 @@ section#thirdscreen div span{
     background-color: #ff6600;
     text-align: center;
 }
+
+/* forth screen */
+#forthscreen{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 1fr;
+    grid-template-rows: 1fr auto;
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    margin-bottom: 150px;
+}
+
+#authorimg{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: auto 0 auto auto;
+}
+
+.textcontent4{
+    width: 95%;
+    margin-left: auto;
+    margin-right: 0px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-family: 'Roboto',Arial,sans-serif;
+}
+
+.textcontent4 span{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+#line{
+    width: 60px;
+    height: 3px;
+    background-color: #ff6600;
+    margin: 15px auto 15px 0px;
+}
+.textcontent4 p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
