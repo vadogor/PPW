@@ -412,3 +412,15 @@ section#fifthscreen div.textcontent5 span{
     border-radius: 30px;
     background-color: black;
 }
+
+#pcard2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: 0px auto auto auto;
+}
+
+#pcard3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    margin: 10px auto 0px auto;
+}
