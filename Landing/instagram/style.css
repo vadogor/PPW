@@ -424,3 +424,116 @@ section#fifthscreen div.textcontent5 span{
     grid-column-end: 5;
     margin: 10px auto 0px auto;
 }
+
+/* sixth screen */
+#sixthscreen{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 5fr 5fr;
+    width: 100%;
+    height: 115vh;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.textcontent6{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    align-content: center;
+}
+
+section#sixthscreen div.textcontent6 span{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 115px;
+    font-size: 42px; 
+    line-height: 1.23;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: rgb(255, 102, 0);
+}
+
+.sixthcard{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    width: 90%;
+    height: 100%;
+    font-family: 'Roboto',Arial,sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+#sixcard1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.sixthcardimg img{
+    width: 55px;
+    height: 55px;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    align-content: center;
+}
+
+.sixthcategoryname{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sixresult{
+    color: rgb(255, 102, 0);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sixthdescription p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #000;
+}
+
+.pdescription{
+    margin-top: 3px;
+}
+
+#sixcard2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#sixcard3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#sixcard4{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#sixcard5{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#sixcard6{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+
