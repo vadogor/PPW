@@ -536,4 +536,31 @@ section#sixthscreen div.textcontent6 span{
     grid-row-end: 4;
 }
 
+/* seventh screen */
+#seventhscreen{
+    display: grid;
+    width: 100%;
+    height: 25vh;
+    background-color: #ff6600;
+    margin-bottom: 80px;
+}
+
+.wborderedbutt{
+    margin: auto;
+    border: 3px white solid;
+    border-radius: 50px;
+    padding: 20px 50px;
+}
+
+.wborderedbutt span{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 16pt;
+    font-weight: 700;
+    color: white;
+}
 
