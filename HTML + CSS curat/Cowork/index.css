@@ -7,3 +7,34 @@ body{
     width: 100%;
     height: 100vh;
 }
+
+#links{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#links img{
+    width: 150px;
+    height: auto;
+    justify-self: center;
+}
+
+#name{
+    display: inline-block;
+    color: white;
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+#links div{
+    display: grid;
+    width: 100%;
+    height: 50px;
+}
