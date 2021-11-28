@@ -3,3 +3,50 @@ body{
     width: 100%;
     height: 1500px; 
 }
+
+header{
+    display: grid;
+    height: 75px;
+    width: 100%;
+    background-color: #27273e;
+    align-items: center;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: auto 8fr auto;
+    grid-template-rows: 1fr;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#img{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-items: center;
+}
+
+#contacts{
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-template-rows: 2fr 1fr;
+    text-align: right;
+}
+
+#tel{
+    color: white;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#program{
+    display: inline-block;
+    color: cyan;
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+}
