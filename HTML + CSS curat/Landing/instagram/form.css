@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-family: 'Roboto',Arial,sans-serif;
+    align-items: center;
+    padding-top: 200px;
+}
+
+#container{
+    border: 2px solid black;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#h1{
+    text-align: center;
+}
+
+#registration{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input{
+    border: 1px solid black;
+    padding-left: 10px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+form p{
+    margin: 0px;
+}
+
+#button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    justify-self: center;
+}
