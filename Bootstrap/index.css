@@ -13,3 +13,30 @@ body{
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
     column-gap: 60%;
 }
+
+.mainscr{
+    background-image: url(assets/img/1.png);
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.row{
+    align-items: center;
+    margin: 0px!important;
+}
+
+.mainscr h1, h2{
+    text-shadow: 3px -2px 6px black;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    margin-bottom: 60px;
+}
+
+.btn{
+    color: blue!important;
+    border-radius: 50px!important;
+}
