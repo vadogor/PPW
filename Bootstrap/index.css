@@ -58,3 +58,18 @@ h1{
 .listclients table{
         margin-bottom: 50px;
 }
+
+.carousel{
+    margin-bottom: 100px;
+}
+
+.d-block{
+    height: 100vh;
+}
+
+.carousell h2{
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+}
