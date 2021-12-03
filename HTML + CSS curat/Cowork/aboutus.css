@@ -50,3 +50,21 @@ header{
     font-size: 15px;
     font-weight: bold;
 }
+
+#maincontent{
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    column-gap: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+
+#leftbar{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) auto;
+    height: 100px;
+}
