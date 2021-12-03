@@ -73,3 +73,21 @@ h1{
     top: 20%;
     left: 32%;
 }
+
+.cards{
+    margin-bottom: 100px;
+}
+
+.carddiv{
+    column-gap: 5%;
+    text-align: center;
+}
+
+.btn-primary{
+    background-color: green!important;
+
+}
+
+.listofcards{
+    align-content: center;
+}
