@@ -91,3 +91,12 @@ h1{
 .listofcards{
     align-content: center;
 }
+
+.hcardrow{
+    column-gap: 10px;
+    flex-wrap: none;
+}
+
+.horizcard{
+    margin-bottom: 100px;
+}
