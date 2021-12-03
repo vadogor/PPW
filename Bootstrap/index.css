@@ -110,3 +110,21 @@ h1{
 .faq{
     margin-bottom: 50px;
 }
+
+.footer{
+    background-color: black;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 100px;
+    column-gap: 10px;
+    text-align: center;
+}
+
+.web, .web2{
+    display: flex;
+
+}
