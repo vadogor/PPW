@@ -69,7 +69,26 @@ header{
     height: 100px;
 }
 
+.navbut{
+    display: grid;
+    font-size: 10pt;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    align-content: center;
+}
 
+.navbut a{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    text-decoration: none;
+    color: #ec1e79;
+    align-content: center;
+}
+
+.navbut span{
+    display: inline-block;
+}
 
 #rightpanel{
     display: grid;
