@@ -212,3 +212,37 @@ footer {
     justify-self: center;
     align-self: center;
 }
+
+#social{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-column: 1fr;
+}
+
+#social span{
+    color: white;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+#sBut{
+    /* display: grid;
+    grid-template-rows: 1fr;
+    /* grid-template-columns: repeat(5, 1fr);
+    color: gray; */
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+}
+
+#sBut img{
+    width: 12px;
+    height: 9px;
+    background-color: white;
+    border-radius: 50px;
+    border: 5px solid white;
+    margin-right: 10px;
+}
