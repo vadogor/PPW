@@ -170,3 +170,22 @@ header{
 #dPartners img{
     margin-left: 10px;
 }
+
+/* Footer */
+footer {
+    display: grid;
+    height: 75px;
+    width: 100%;
+    background-color: #27273e;
+    align-items: center;
+}
+
+#footContainer{
+    display: grid;
+    grid-template-columns: auto 8fr auto;
+    grid-template-rows: 1fr;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
