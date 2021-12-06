@@ -108,8 +108,22 @@ header{
     font-weight: bold;
 }
 
+#mainCards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
+}
 
+.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr auto auto auto;
+    width: 90%;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 
 
