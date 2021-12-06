@@ -50,3 +50,79 @@ header{
     font-size: 15px;
     font-weight: bold;
 }
+
+
+
+
+
+
+
+footer {
+    display: grid;
+    height: 75px;
+    width: 100%;
+    background-color: #27273e;
+    align-items: center;
+}
+
+#footContainer{
+    display: grid;
+    grid-template-columns: auto 8fr auto;
+    grid-template-rows: 1fr;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#regardings{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    font-size: 11pt;
+}
+
+#regardings p{
+    color: rgb(238, 229, 229);
+    margin: 1px 0px;
+}
+
+#regardings p span{
+    color: white;
+    font-weight: bold;
+}
+
+#fLogo{
+    justify-self: center;
+    align-self: center;
+}
+
+#social{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-column: 1fr;
+}
+
+#social span{
+    color: white;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+#sBut{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: center;
+    align-self: center;
+}
+
+#sBut img{
+    width: 12px;
+    height: 9px;
+    background-color: white;
+    border-radius: 50px;
+    border: 5px solid white;
+    margin-right: 10px;
+}
