@@ -116,3 +116,38 @@ header{
     left: 29%;
     margin-top: 8.5%;
 }
+
+#mainText{
+    width: 85%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7;
+    font-size: 13pt;
+}
+
+#mainText p{
+    color: rgb(90, 87, 87);
+    font-weight: 100;
+}
+
+#list{
+    margin-left: 15px;
+}
+
+#list p{
+    margin: 0px 0px 6px 0px;
+}
+
+#mainText p span{
+    color: #ec1e79;
+}
+
+#specialOffer{
+    background-color: #27273e;
+    color: white!important;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+#off{
+    font-weight: bold;
+}
