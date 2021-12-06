@@ -51,6 +51,65 @@ header{
     font-weight: bold;
 }
 
+#maincontent{
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    column-gap: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+
+#leftbar{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) auto;
+    height: 100px;
+}
+
+.navbut{
+    display: grid;
+    font-size: 10pt;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.navbut a{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    text-decoration: none;
+    color: #ec1e79;
+    align-content: center;
+}   
+
+.navbut span{
+    display: inline-block;
+}
+
+#rightpanel{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+}
+
+#hmain{
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+#hmain span{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+
+
 
 
 
