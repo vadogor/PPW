@@ -182,9 +182,41 @@ header{
     color: white;
 }
 
+#c1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
 
+#c2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
 
+#c3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
 
+#c4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#c5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#c6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
 
 footer {
     display: grid;
