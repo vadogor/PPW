@@ -226,10 +226,6 @@ footer {
 }
 
 #sBut{
-    /* display: grid;
-    grid-template-rows: 1fr;
-    /* grid-template-columns: repeat(5, 1fr);
-    color: gray; */
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 2;
