@@ -125,8 +125,32 @@ header{
     margin-bottom: 30px;
 }
 
+.cardImg{
+    background-image: url(assets/img/prices/2.jpg);
+    background-size: cover;
+    position: relative; 
+    width: 100%;
+    height: 150px;   
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
+.substrateCol{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(39, 39, 62, 0.8);
+    border-radius: 5px;
+}
 
+.cardImg span{
+    position: absolute; 
+    top: 45%; 
+    left: 28%; 
+    font-size: 18pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #5dd1f8;
+}
 
 
 
