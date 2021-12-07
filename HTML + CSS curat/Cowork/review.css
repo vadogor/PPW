@@ -122,6 +122,43 @@ header{
     margin-bottom: 10px;
 }
 
+.card img{
+    border-radius: 50%;
+}
+
+.cText{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    padding-left: 20px;
+}
+
+.cDate{
+    font-size: 11pt;
+    margin-bottom: 5px;
+    color: rgb(90, 87, 87);
+}
+
+.cName{
+    font-size: 15pt;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cDescription{
+    font-size: 15pt;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.5;
+    margin-top: 0px;
+}
+
+hr{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
 
 
 
