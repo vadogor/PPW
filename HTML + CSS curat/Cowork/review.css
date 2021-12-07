@@ -264,8 +264,45 @@ label{
     margin-bottom: 10px;
 }
 
+button{
+    background: #27273e;
+    color: #fff;
+    width: 70%;
+    height: 80%;
+    justify-self: right;
+    border: transparent;
+    border-radius: 2px;
+    font-size: 12pt;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
 
+button:hover{
+    background: #ec1e79;
+    color: white;
+    transition-duration: 0.3s;
+}
 
+#button{
+    display: grid;
+    align-items: center;
+}
+#radLabel{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#radAl{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+.radioButt{
+    width: 20px;
+    height: 20px;
+}
 
 
 footer {
