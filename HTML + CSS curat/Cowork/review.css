@@ -108,7 +108,19 @@ header{
     font-weight: bold;
 }
 
+#mainCards{
+    display: grid;
+    grid-column: 1fr;
+    grid-template-rows: repeat(7, auto);
+}
 
+.card{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 9fr;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+}
 
 
 
