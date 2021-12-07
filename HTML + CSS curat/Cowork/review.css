@@ -157,6 +157,51 @@ hr{
     margin-bottom: 40px;
 }
 
+#pagination{
+    width: 40%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 5fr repeat(9, 0.5fr);
+    justify-self: center;
+    font-size: 11pt;
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#pagination span{
+    margin-right: 10px;
+}
+
+#pagination div{
+    background-color: white;
+    width: 22px;
+    height: 25px;
+    display: grid;
+    align-content: center;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+
+#pagination a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#pagination div:hover{
+    background-color: #27273e;
+    transition-duration: 0.5s;
+}
+
+#pagination div a:hover{
+    color: #ec1e79;
+}
+
+.pArrow{
+    font-weight: 100!important;
+}
 
 
 
