@@ -203,7 +203,28 @@ hr{
     font-weight: 100!important;
 }
 
+#reviewForm{
+    width: 80%;
+    background: rgb(231, 231, 231);
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
+#form{
+    display: grid;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fH1{
+    display: grid;
+    font-weight: bold;
+    font-size: 30pt;
+    text-align: left;
+    margin-bottom: 20px;
+}
 
 
 
