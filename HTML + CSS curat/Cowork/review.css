@@ -4,6 +4,7 @@ body{
     height: 100%; 
 }
 
+/* header */
 header{
     display: grid;
     height: 75px;
@@ -51,6 +52,7 @@ header{
     font-weight: bold;
 }
 
+/* main content */
 #maincontent{
     width: 65%;
     height: auto;
@@ -62,7 +64,7 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 50px;
 }
-
+/* navbar */
 #leftbar{
     display: grid;
     grid-template-rows: repeat(3, 1fr) auto;
@@ -90,6 +92,7 @@ header{
     display: inline-block;
 }
 
+/* rightpanel content */
 #rightpanel{
     display: grid;
     grid-template-columns: 1fr;
@@ -157,6 +160,7 @@ hr{
     margin-bottom: 40px;
 }
 
+/* pagination */
 #pagination{
     width: 40%;
     display: grid;
@@ -203,6 +207,7 @@ hr{
     font-weight: 100!important;
 }
 
+/* form */
 #reviewForm{
     width: 80%;
     background: rgb(231, 231, 231);
@@ -304,7 +309,7 @@ button:hover{
     height: 20px;
 }
 
-
+/* footer */
 footer {
     display: grid;
     height: 75px;
