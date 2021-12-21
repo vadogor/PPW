@@ -1,226 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Часто задаваемые вопросы</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">Какой то блог сайта</a>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">О нас</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Сервис</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Порфолио
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                  <a class="dropdown-item" href="protfolio1.html">Данные в 1 колонку</a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Часто задаваемые вопросы</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"
+                    >Какой то блог сайта</a
+                >
+                <button
+                    class="navbar-toggler navbar-toggler-right"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Сервис</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdownPortfolio"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Порфолио
+                            </a>
+                            <div
+                                class="dropdown-menu dropdown-menu-right"
+                                aria-labelledby="navbarDropdownPortfolio"
+                            >
+                                <a class="dropdown-item" href="protfolio1.html"
+                                    >Данные в 1 колонку</a
+                                >
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdownBlog"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Другие страницы
+                            </a>
+                            <div
+                                class="dropdown-menu dropdown-menu-right"
+                                aria-labelledby="navbarDropdownBlog"
+                            >
+                                <a class="dropdown-item active" href="faq.html"
+                                    >FAQ</a
+                                >
+                                <a class="dropdown-item" href="pricing.html"
+                                    >Карточки цен</a
+                                >
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Другие страницы
-                </a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                  <a class="dropdown-item active" href="faq.html">FAQ</a>
-                  <a class="dropdown-item" href="pricing.html">Карточки цен</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
+            </div>
+        </nav>
 
-    <div class="container mb-3">
-        <h1 class="mt-4 mb-5">Ответы на популярные вопросы</h1>
-        
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-          <!-- First question -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                <strong>Почему нужно делать так?</strong>
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-              <div class="accordion-body">
-                Потому что это правильно 
-              </div>
-            </div>
-          </div>
-    
-          <!-- Second question -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                <strong>А может можно и по другому как то?</strong> 
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-              <div class="accordion-body">
-                Не знаю, может быть. Чтобы это узнать нужно пробовать и пробовать.
-              </div>
-            </div>
-          </div>
-    
-          <!-- Third question -->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                <strong>Как скачать клиент?</strong>  
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-              <div class="accordion-body">
-                Переходите по ссылке ссылка.рф и нажимаете кнопку скачать.
-              </div>
-            </div>
-          </div>
+        <div class="container mb-3">
+            <h1 class="mt-4 mb-5">Ответы на популярные вопросы</h1>
+
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <!-- First question -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseOne"
+                        >
+                            <strong>Почему нужно делать так?</strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingOne"
+                    >
+                        <div class="accordion-body">
+                            Потому что это правильно
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second question -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo"
+                        >
+                            <strong>А может можно и по другому как то?</strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseTwo"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo"
+                    >
+                        <div class="accordion-body">
+                            Не знаю, может быть. Чтобы это узнать нужно
+                            пробовать и пробовать.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third question -->
+                <div class="accordion-item">
+                    <h2
+                        class="accordion-header"
+                        id="panelsStayOpen-headingThree"
+                    >
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree"
+                        >
+                            <strong>Как скачать клиент?</strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree"
+                    >
+                        <div class="accordion-body">
+                            Переходите по ссылке ссылка.рф и нажимаете кнопку
+                            скачать.
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Forth question -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-            <strong>
-              Как пройти лабиринт?<br>
-              Тут проверяю как действует вопрос в несколько строк?
-            </strong>     
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-          <div class="accordion-body">
-            Он цикличен, как только проходите его, вас отправляют в начало.
-          </div>
-        </div>
-      </div>
+                <div class="accordion-item">
+                    <h2
+                        class="accordion-header"
+                        id="panelsStayOpen-headingFour"
+                    >
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour"
+                        >
+                            <strong>
+                                Как пройти лабиринт?<br />
+                                Тут проверяю как действует вопрос в несколько
+                                строк?
+                            </strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseFour"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFour"
+                    >
+                        <div class="accordion-body">
+                            Он цикличен, как только проходите его, вас
+                            отправляют в начало.
+                        </div>
+                    </div>
+                </div>
 
-      <!-- Fifth question -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-            <strong>Как выучить математику?</strong>    
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-          <div class="accordion-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, alias molestiae nostrum commodi voluptates officia 
-            perferendis? Veniam esse exercitationem non ea numquam debitis nemo, error amet maiores, illo voluptatem corrupti.
-          </div>
-        </div>
-      </div>
+                <!-- Fifth question -->
+                <div class="accordion-item">
+                    <h2
+                        class="accordion-header"
+                        id="panelsStayOpen-headingFive"
+                    >
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive"
+                        >
+                            <strong>Как выучить математику?</strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseFive"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingFive"
+                    >
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consectetur, alias molestiae nostrum commodi
+                            voluptates officia perferendis? Veniam esse
+                            exercitationem non ea numquam debitis nemo, error
+                            amet maiores, illo voluptatem corrupti.
+                        </div>
+                    </div>
+                </div>
 
-      <!-- Sixth question -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-            <strong>Как нарисвать колобка?</strong>   
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
-          <div class="accordion-body">
-            Проведите окружность, залейте её цветом и готово.
-          </div>
-        </div>
-      </div>
+                <!-- Sixth question -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSix"
+                        >
+                            <strong>Как нарисвать колобка?</strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseSix"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSix"
+                    >
+                        <div class="accordion-body">
+                            Проведите окружность, залейте её цветом и готово.
+                        </div>
+                    </div>
+                </div>
 
-      <!-- Seventh question -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
-            <strong>Будет трудно искать элементы бутстрап?</strong>  
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSeven">
-          <div class="accordion-body">
-            Искать было не трудно, но трудновато было разбираться в этом коде.
-          </div>
-        </div>
-      </div>
+                <!-- Seventh question -->
+                <div class="accordion-item">
+                    <h2
+                        class="accordion-header"
+                        id="panelsStayOpen-headingSeven"
+                    >
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven"
+                        >
+                            <strong
+                                >Будет трудно искать элементы бутстрап?</strong
+                            >
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseSeven"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingSeven"
+                    >
+                        <div class="accordion-body">
+                            Искать было не трудно, но трудновато было
+                            разбираться в этом коде.
+                        </div>
+                    </div>
+                </div>
 
-      <!-- Eighth question -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingEight">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
-            <strong>А почему нужно идти туда?</strong> 
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEight">
-          <div class="accordion-body">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam optio quibusdam, pariatur sit rerum modi autem enim quia voluptate 
-            corporis saepe, sapiente praesentium consequatur vero numquam, obcaecati provident cumque quam.
-          </div>
-        </div>
-      </div>
+                <!-- Eighth question -->
+                <div class="accordion-item">
+                    <h2
+                        class="accordion-header"
+                        id="panelsStayOpen-headingEight"
+                    >
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEight"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEight"
+                        >
+                            <strong>А почему нужно идти туда?</strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseEight"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingEight"
+                    >
+                        <div class="accordion-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing
+                            elit. Veniam optio quibusdam, pariatur sit rerum
+                            modi autem enim quia voluptate corporis saepe,
+                            sapiente praesentium consequatur vero numquam,
+                            obcaecati provident cumque quam.
+                        </div>
+                    </div>
+                </div>
 
-      <!-- Nineth question -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingNine">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
-            <strong>Как пройти в туалет?</strong> 
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingNine">
-          <div class="accordion-body">
-            Пройти по коридору прямо, два раза на право, потом еще раз на право.
-          </div>
-        </div>
-      </div>
+                <!-- Nineth question -->
+                <div class="accordion-item">
+                    <h2
+                        class="accordion-header"
+                        id="panelsStayOpen-headingNine"
+                    >
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseNine"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseNine"
+                        >
+                            <strong>Как пройти в туалет?</strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseNine"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingNine"
+                    >
+                        <div class="accordion-body">
+                            Пройти по коридору прямо, два раза на право, потом
+                            еще раз на право.
+                        </div>
+                    </div>
+                </div>
 
-      <!-- Tenth question -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingTen">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTen">
-            <strong>Сколько вам лет?</strong> 
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTen">
-          <div class="accordion-body">
-            А сколько дадите?
-          </div>
-        </div>
-      </div>
+                <!-- Tenth question -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTen"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTen"
+                        >
+                            <strong>Сколько вам лет?</strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseTen"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTen"
+                    >
+                        <div class="accordion-body">А сколько дадите?</div>
+                    </div>
+                </div>
 
-      <!-- Eleventh question -->
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="panelsStayOpen-headingEleven">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="false" aria-controls="panelsStayOpen-collapseEleven">
-            <strong>Чем занимаетесь?</strong> 
-          </button>
-        </h2>
-        <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingEleven">
-          <div class="accordion-body">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, consequatur! Voluptas maxime 
-            eligendi esse aperiam temporibus molestiae ullam consequuntur laudantium corporis eos asperiores similique 
-            amet molestias facilis, dolorem recusandae nam?
-          </div>
+                <!-- Eleventh question -->
+                <div class="accordion-item">
+                    <h2
+                        class="accordion-header"
+                        id="panelsStayOpen-headingEleven"
+                    >
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseEleven"
+                            aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseEleven"
+                        >
+                            <strong>Чем занимаетесь?</strong>
+                        </button>
+                    </h2>
+                    <div
+                        id="panelsStayOpen-collapseEleven"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingEleven"
+                    >
+                        <div class="accordion-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Dolorum, consequatur! Voluptas maxime eligendi
+                            esse aperiam temporibus molestiae ullam consequuntur
+                            laudantium corporis eos asperiores similique amet
+                            molestias facilis, dolorem recusandae nam?
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    
-        </div>
-      </div>
 
-    <footer class="py-5 bg-dark">
-        <div class="container">
-          <p class="m-0 text-center text-white">Тут типа футер</p>
-        </div>
-    </footer>
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Тут типа футер</p>
+            </div>
+        </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
-</body>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>

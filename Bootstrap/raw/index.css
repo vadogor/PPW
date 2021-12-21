@@ -1,20 +1,26 @@
-body{
+body {
     margin: 0px;
 }
 
-.navbar{
+.navbar {
     background-color: black;
 }
 
-.container{
+.container {
     width: 80%;
 }
 
-.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
     column-gap: 60%;
 }
 
-.mainscr{
+.mainscr {
     background-image: url(assets/img/1.png);
     width: 100%;
     background-size: cover;
@@ -22,31 +28,32 @@ body{
     background-attachment: fixed;
 }
 
-.row{
+.row {
     align-items: center;
-    margin: 0px!important;
+    margin: 0px !important;
 }
 
-.mainscr h1, h2{
+.mainscr h1,
+h2 {
     text-shadow: 3px -2px 6px black;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-h1{
+h1 {
     margin-bottom: 60px;
 }
 
-.btn{
-    color: blue!important;
-    border-radius: 50px!important;
+.btn {
+    color: blue !important;
+    border-radius: 50px !important;
 }
 
-.listclients{
+.listclients {
     text-align: center;
     margin-bottom: 100px;
 }
 
-.listclients h1{
+.listclients h1 {
     margin-top: 2em;
 }
 
@@ -55,66 +62,65 @@ h1{
     color: black;
 }
 
-.listclients table{
-        margin-bottom: 50px;
+.listclients table {
+    margin-bottom: 50px;
 }
 
-.carousel{
+.carousel {
     margin-bottom: 100px;
 }
 
-.d-block{
+.d-block {
     height: 100vh;
 }
 
-.carousell h2{
+.carousell h2 {
     color: white;
     position: absolute;
     top: 20%;
     left: 32%;
 }
 
-.cards{
+.cards {
     margin-bottom: 100px;
 }
 
-.carddiv{
+.carddiv {
     column-gap: 5%;
     text-align: center;
 }
 
-.btn-primary{
-    background-color: green!important;
-
+.btn-primary {
+    background-color: green !important;
 }
 
-.listofcards{
+.listofcards {
     align-content: center;
 }
 
-.hcardrow{
+.hcardrow {
     column-gap: 10px;
 }
 
-.horizcard{
+.horizcard {
     margin-bottom: 100px;
 }
 
-.accordion{
+.accordion {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.faq{
+.faq {
     margin-bottom: 50px;
 }
 
-.footer{
+.footer {
     background-color: black;
 }
 
-.copyright{
+.copyright {
     display: flex;
     justify-content: center;
     color: white;
@@ -123,7 +129,7 @@ h1{
     text-align: center;
 }
 
-.web, .web2{
+.web,
+.web2 {
     display: flex;
-
 }

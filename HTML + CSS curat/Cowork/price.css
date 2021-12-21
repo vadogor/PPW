@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0px;
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
 
-header{
+header {
     display: grid;
     height: 75px;
     width: 100%;
@@ -12,7 +12,7 @@ header{
     align-items: center;
 }
 
-#container{
+#container {
     display: grid;
     grid-template-columns: auto 8fr auto;
     grid-template-rows: 1fr;
@@ -22,14 +22,14 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#img{
+#img {
     display: grid;
     grid-column-start: 1;
     grid-column-end: 2;
     align-items: center;
 }
 
-#contacts{
+#contacts {
     display: grid;
     grid-column-start: 3;
     grid-column-end: 4;
@@ -37,13 +37,13 @@ header{
     text-align: right;
 }
 
-#tel{
+#tel {
     color: white;
     font-size: 16pt;
     font-weight: bold;
 }
 
-#program{
+#program {
     display: inline-block;
     color: cyan;
     text-decoration: underline;
@@ -51,7 +51,7 @@ header{
     font-weight: bold;
 }
 
-#maincontent{
+#maincontent {
     width: 65%;
     height: auto;
     margin-left: auto;
@@ -63,13 +63,13 @@ header{
     margin-bottom: 50px;
 }
 
-#leftbar{
+#leftbar {
     display: grid;
     grid-template-rows: repeat(3, 1fr) auto;
     height: 100px;
 }
 
-.navbut{
+.navbut {
     display: grid;
     font-size: 10pt;
     align-items: center;
@@ -78,44 +78,43 @@ header{
     align-content: center;
 }
 
-.navbut a{
+.navbut a {
     display: grid;
     grid-template-columns: auto 1fr;
     text-decoration: none;
     color: #ec1e79;
     align-content: center;
-}   
+}
 
-.navbut span{
+.navbut span {
     display: inline-block;
 }
 
-#rightpanel{
+#rightpanel {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
 }
 
-#hmain{
+#hmain {
     padding-top: 60px;
     margin-bottom: 30px;
 }
 
-#hmain span{
+#hmain span {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30pt;
     font-weight: bold;
 }
 
-#mainCards{
+#mainCards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-
 }
 
-.card{
+.card {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr auto auto auto;
@@ -125,34 +124,34 @@ header{
     margin-bottom: 30px;
 }
 
-.cardImg{
+.cardImg {
     background-image: url(assets/img/prices/2.jpg);
     background-size: cover;
-    position: relative; 
+    position: relative;
     width: 100%;
-    height: 150px;   
+    height: 150px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
 
-.substrateCol{
+.substrateCol {
     width: 100%;
     height: 100%;
     background-color: rgba(39, 39, 62, 0.8);
     border-radius: 5px;
 }
 
-.cardImg span{
-    position: absolute; 
-    top: 45%; 
-    left: 28%; 
+.cardImg span {
+    position: absolute;
+    top: 45%;
+    left: 28%;
     font-size: 18pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: #5dd1f8;
 }
 
-.sPrice{
+.sPrice {
     display: inline-block;
     width: 90%;
     font-weight: bold;
@@ -160,12 +159,12 @@ header{
     justify-self: center;
 }
 
-.card p{
+.card p {
     font-size: 11pt;
     color: rgb(90, 87, 87);
 }
 
-.cardButt{
+.cardButt {
     display: grid;
     width: 50%;
     height: 40px;
@@ -175,43 +174,43 @@ header{
     align-content: center;
 }
 
-.cardButt a{
+.cardButt a {
     width: 100%;
     height: 100%;
     text-decoration: none;
     color: white;
 }
 
-#c1{
+#c1 {
     grid-column-start: 1;
     grid-column-end: 2;
 }
 
-#c2{
+#c2 {
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
-#c3{
+#c3 {
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-#c4{
+#c4 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-#c5{
+#c5 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-#c6{
+#c6 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
@@ -226,7 +225,7 @@ footer {
     align-items: center;
 }
 
-#footContainer{
+#footContainer {
     display: grid;
     grid-template-columns: auto 8fr auto;
     grid-template-rows: 1fr;
@@ -236,40 +235,40 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#regardings{
+#regardings {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
     font-size: 11pt;
 }
 
-#regardings p{
+#regardings p {
     color: rgb(238, 229, 229);
     margin: 1px 0px;
 }
 
-#regardings p span{
+#regardings p span {
     color: white;
     font-weight: bold;
 }
 
-#fLogo{
+#fLogo {
     justify-self: center;
     align-self: center;
 }
 
-#social{
+#social {
     display: grid;
     grid-template-rows: auto auto;
 }
 
-#social span{
+#social span {
     color: white;
     font-weight: bold;
     font-size: 11pt;
 }
 
-#sBut{
+#sBut {
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 2;
@@ -278,7 +277,7 @@ footer {
     align-self: center;
 }
 
-#sBut img{
+#sBut img {
     width: 12px;
     height: 9px;
     background-color: white;

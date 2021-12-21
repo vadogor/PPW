@@ -1,11 +1,11 @@
-body{
+body {
     width: 100%;
     height: auto;
     margin: 0;
-    background-color:white; 
+    background-color: white;
 }
 
-.header{
+.header {
     height: 50px;
     width: 100%;
     background-color: rgb(255, 102, 0);
@@ -13,7 +13,7 @@ body{
     margin-top: -50px;
 }
 
-.navigation{
+.navigation {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     width: 50%;
@@ -21,14 +21,14 @@ body{
     margin: auto;
 }
 
-header nav a{
+header nav a {
     color: rgb(24, 21, 21);
     text-decoration: none;
     margin: auto;
 }
 
 /* first block */
-#firstscreen{
+#firstscreen {
     margin-top: 50px;
     width: 100%;
     height: 95vh;
@@ -37,7 +37,7 @@ header nav a{
     background-size: cover;
 }
 
-.textcontent1{
+.textcontent1 {
     display: grid;
     color: white;
     width: 100%;
@@ -46,30 +46,30 @@ header nav a{
     align-items: center;
 }
 
-section#firstscreen div span{
+section#firstscreen div span {
     display: inline-block;
     margin-top: 20%;
     margin-left: 30%;
     margin-right: 30%;
     color: white;
     font-size: 65px;
-    font-family: 'Arial',Arial,sans-serif;
+    font-family: "Arial", Arial, sans-serif;
     line-height: 1.2;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
-section#firstscreen div h5{
+section#firstscreen div h5 {
     color: white;
     font-size: 22px;
-    font-family: 'Arial',Arial,sans-serif;
+    font-family: "Arial", Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 50px;
 }
 
-.button{
+.button {
     display: grid;
     align-content: center;
     width: 200px;
@@ -80,20 +80,20 @@ section#firstscreen div h5{
     margin-bottom: 1000px;
 }
 
-.but{
+.but {
     height: 100%;
     width: 100%;
     color: white;
     text-decoration: none;
     font-size: 16pt;
     font-weight: 600;
-    font-family: 'Arial',Arial,sans-serif;
+    font-family: "Arial", Arial, sans-serif;
     line-height: 1.55;
     text-align: center;
 }
 
 /* Second block */
-#secondscreen{
+#secondscreen {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     grid-template-rows: 1fr 20fr;
@@ -102,7 +102,7 @@ section#firstscreen div h5{
     background-color: white;
 }
 
-.textcontent2{
+.textcontent2 {
     display: grid;
     width: 100%;
     height: 100%;
@@ -111,47 +111,46 @@ section#firstscreen div h5{
     align-content: center;
 }
 
-section#secondscreen div.textcontent2 span{
+section#secondscreen div.textcontent2 span {
     display: inline-block;
     text-align: center;
     margin-top: 70px;
     margin-bottom: 70px;
-    font-size: 42px; 
+    font-size: 42px;
     line-height: 1.23;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: 600;
     color: rgb(255, 102, 0);
 }
 
-section#secondscreen img{
+section#secondscreen img {
     width: 200px;
     height: auto;
-
 }
-.card1{
+.card1 {
     display: grid;
     grid-template-rows: auto auto 1fr;
     grid-column-start: 2;
     grid-column-end: 3;
 }
 
-.cardimg{
+.cardimg {
     display: grid;
     align-content: center;
     justify-content: center;
 }
-.categoryname{
+.categoryname {
     display: grid;
     color: black;
     font-size: 30px;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: 600;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.descriptiontext{
+.descriptiontext {
     padding-left: 40px;
     padding-right: 6px;
     font-weight: 400;
@@ -160,33 +159,33 @@ section#secondscreen img{
     font-size: 14pt;
 }
 
-.description{
+.description {
     margin-top: 0px;
     margin-bottom: 30px;
 }
 
-.objective1{
+.objective1 {
     margin-top: 5px;
     margin-bottom: 2px;
 }
 
-.objective2{
+.objective2 {
     margin-top: 0px;
     margin-bottom: 2px;
 }
 
-.objective3{
+.objective3 {
     margin-top: 0px;
 }
 
-.card2{
+.card2 {
     display: grid;
     grid-template-rows: auto auto 1fr;
     grid-column-start: 3;
     grid-column-end: 4;
 }
 
-.card3{
+.card3 {
     display: grid;
     grid-template-rows: auto auto 1fr;
     grid-column-start: 4;
@@ -194,7 +193,7 @@ section#secondscreen img{
 }
 
 /* Third block */
-#thirdscreen{
+#thirdscreen {
     display: grid;
     width: 100%;
     height: 50vh;
@@ -205,7 +204,7 @@ section#secondscreen img{
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.textcontent3{
+.textcontent3 {
     display: grid;
     width: 50%;
     height: 100%;
@@ -214,12 +213,12 @@ section#secondscreen img{
     margin-right: auto;
 }
 
-section#thirdscreen div span{
+section#thirdscreen div span {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     color: white;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 48px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -227,7 +226,7 @@ section#thirdscreen div span{
     margin-top: 100px;
 }
 
-.button2{
+.button2 {
     display: grid;
     align-content: center;
     width: 200px;
@@ -240,7 +239,7 @@ section#thirdscreen div span{
 }
 
 /* forth screen */
-#forthscreen{
+#forthscreen {
     display: grid;
     grid-template-columns: 1fr 3fr 3fr 1fr;
     grid-template-rows: 1fr auto;
@@ -250,7 +249,7 @@ section#thirdscreen div span{
     margin-bottom: 150px;
 }
 
-#authorimg{
+#authorimg {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -258,7 +257,7 @@ section#thirdscreen div span{
     margin: auto 0 auto auto;
 }
 
-.textcontent4{
+.textcontent4 {
     width: 95%;
     margin-left: auto;
     margin-right: 0px;
@@ -266,23 +265,23 @@ section#thirdscreen div span{
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
-.textcontent4 span{
+.textcontent4 span {
     display: inline-block;
     font-weight: 900;
     font-size: 42px;
     font-weight: 600;
     margin-top: 5px;
 }
-#line{
+#line {
     width: 60px;
     height: 3px;
     background-color: #ff6600;
     margin: 15px auto 15px 0px;
 }
-.textcontent4 p{
+.textcontent4 p {
     font-weight: 400;
     font-size: 18px;
     margin-bottom: 25px;
@@ -291,7 +290,7 @@ section#thirdscreen div span{
 }
 
 /* fifth screen */
-#fifthscreen{
+#fifthscreen {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     grid-template-rows: 1fr auto;
@@ -301,7 +300,7 @@ section#thirdscreen div span{
     margin-bottom: 150px;
 }
 
-.textcontent5{
+.textcontent5 {
     display: grid;
     width: 100%;
     height: 100%;
@@ -310,19 +309,19 @@ section#thirdscreen div span{
     align-content: center;
 }
 
-section#fifthscreen div.textcontent5 span{
+section#fifthscreen div.textcontent5 span {
     display: inline-block;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 70px;
-    font-size: 42px; 
+    font-size: 42px;
     line-height: 1.23;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: 600;
     color: black;
 }
 
-.pricecard{
+.pricecard {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr auto auto auto;
     width: 80%;
@@ -332,16 +331,16 @@ section#fifthscreen div.textcontent5 span{
     border-width: 1px;
     border-radius: 5px;
     border-style: solid;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
-#pcard1{
+#pcard1 {
     grid-column-start: 2;
     grid-column-end: 3;
     margin: 10px auto 0px auto;
 }
 
-.h1title{
+.h1title {
     display: grid;
     font-weight: 600;
     font-size: 22px;
@@ -352,7 +351,7 @@ section#fifthscreen div.textcontent5 span{
     align-content: center;
 }
 
-.numseats{
+.numseats {
     display: grid;
     text-align: center;
     font-size: 18px;
@@ -360,7 +359,7 @@ section#fifthscreen div.textcontent5 span{
     color: rgb(23, 3, 3);
 }
 
-.price{
+.price {
     display: grid;
     text-align: center;
     font-weight: 600;
@@ -370,11 +369,11 @@ section#fifthscreen div.textcontent5 span{
     color: #000;
 }
 
-.descriptionprice{
+.descriptionprice {
     margin-top: 20px;
 }
 
-.descriptionprice p{
+.descriptionprice p {
     text-align: left;
     line-height: 1.5;
     color: #000;
@@ -383,12 +382,12 @@ section#fifthscreen div.textcontent5 span{
     margin-bottom: 0px;
 }
 
-.prepayment{
+.prepayment {
     display: grid;
     align-content: center;
     padding: 50px 70px;
 }
-.prepayment span{
+.prepayment span {
     display: inline-block;
     text-align: center;
     border-bottom: solid;
@@ -397,13 +396,13 @@ section#fifthscreen div.textcontent5 span{
     font-size: 16px;
     margin-bottom: 5px;
 }
-.prepayment a{
+.prepayment a {
     text-decoration: none;
     color: black;
     text-align: center;
 }
 
-.buttonbuy{
+.buttonbuy {
     display: grid;
     align-content: center;
     width: 200px;
@@ -413,20 +412,20 @@ section#fifthscreen div.textcontent5 span{
     background-color: black;
 }
 
-#pcard2{
+#pcard2 {
     grid-column-start: 3;
     grid-column-end: 4;
     margin: 0px auto auto auto;
 }
 
-#pcard3{
+#pcard3 {
     grid-column-start: 4;
     grid-column-end: 5;
     margin: 10px auto 0px auto;
 }
 
 /* sixth screen */
-#sixthscreen{
+#sixthscreen {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     grid-template-rows: 1fr 5fr 5fr;
@@ -436,7 +435,7 @@ section#fifthscreen div.textcontent5 span{
     margin-bottom: 20px;
 }
 
-.textcontent6{
+.textcontent6 {
     display: grid;
     width: 100%;
     height: 100%;
@@ -445,36 +444,36 @@ section#fifthscreen div.textcontent5 span{
     align-content: center;
 }
 
-section#sixthscreen div.textcontent6 span{
+section#sixthscreen div.textcontent6 span {
     display: inline-block;
     text-align: center;
     margin-bottom: 115px;
-    font-size: 42px; 
+    font-size: 42px;
     line-height: 1.23;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-weight: 600;
     color: rgb(255, 102, 0);
 }
 
-.sixthcard{
+.sixthcard {
     display: grid;
     grid-template-rows: 1fr 5fr;
     width: 90%;
     height: 100%;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     text-align: left;
     line-height: 1.5;
     margin: 0 auto;
 }
 
-#sixcard1{
+#sixcard1 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-.sixthcardimg img{
+.sixthcardimg img {
     width: 55px;
     height: 55px;
     display: grid;
@@ -483,53 +482,53 @@ section#sixthscreen div.textcontent6 span{
     align-content: center;
 }
 
-.sixthcategoryname{
+.sixthcategoryname {
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 600;
 }
 
-.sixresult{
+.sixresult {
     color: rgb(255, 102, 0);
     font-weight: 600;
     font-size: 18px;
 }
 
-.sixthdescription p{
+.sixthdescription p {
     font-size: 18px;
     font-weight: 300;
     color: #000;
 }
 
-.pdescription{
+.pdescription {
     margin-top: 3px;
 }
 
-#sixcard2{
+#sixcard2 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
 }
-#sixcard3{
+#sixcard3 {
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
 }
-#sixcard4{
+#sixcard4 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
 }
-#sixcard5{
+#sixcard5 {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
 }
-#sixcard6{
+#sixcard6 {
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 3;
@@ -537,7 +536,7 @@ section#sixthscreen div.textcontent6 span{
 }
 
 /* seventh screen */
-#seventhscreen{
+#seventhscreen {
     display: grid;
     width: 100%;
     height: 25vh;
@@ -545,27 +544,27 @@ section#sixthscreen div.textcontent6 span{
     margin-bottom: 80px;
 }
 
-.wborderedbutt{
+.wborderedbutt {
     margin: auto;
     border: 3px white solid;
     border-radius: 50px;
     padding: 20px 50px;
 }
 
-.wborderedbutt span{
+.wborderedbutt span {
     width: 100%;
     height: 100%;
     display: inline-block;
     text-align: center;
     align-self: center;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 16pt;
     font-weight: 700;
     color: white;
 }
 
 /* eighth screen */
-#eighthscreen{
+#eighthscreen {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     grid-template-rows: 1fr 20fr;
@@ -574,31 +573,31 @@ section#sixthscreen div.textcontent6 span{
     background-color: white;
 }
 
-#eighthscreen div{
+#eighthscreen div {
     width: 85%;
     margin: 0 auto;
     text-align: center;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     line-height: 1.5;
 }
 
-section#eighthscreen div.textcontent5 span{
+section#eighthscreen div.textcontent5 span {
     display: inline-block;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 70px;
-    font-size: 42px; 
+    font-size: 42px;
     line-height: 1.23;
     font-weight: 600;
     color: black;
 }
 
-#eighthscreen div.cardimg img{
+#eighthscreen div.cardimg img {
     width: 200px;
     height: auto;
 }
 
-.categoryname8{
+.categoryname8 {
     display: inline-block;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -607,13 +606,13 @@ section#eighthscreen div.textcontent5 span{
     font-weight: bold;
 }
 
-.description8{
+.description8 {
     color: rgb(23, 3, 3);
     margin-top: 0px;
 }
 
 /* final screen */
-#finalscreen{
+#finalscreen {
     display: grid;
     grid-template-columns: 2fr 4fr 2fr;
     grid-template-rows: 1.5fr 2fr;
@@ -623,7 +622,7 @@ section#eighthscreen div.textcontent5 span{
     background-color: black;
 }
 
-#textcontent9{
+#textcontent9 {
     display: grid;
     width: 100%;
     height: 100%;
@@ -631,20 +630,20 @@ section#eighthscreen div.textcontent5 span{
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    font-family: 'Roboto',Arial,sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     line-height: 1.5;
     text-align: center;
     align-items: center;
 }
 
-#textcontent9 span{
+#textcontent9 span {
     display: inline-block;
     font-size: 18pt;
     font-weight: bold;
     color: white;
 }
 
-#form{
+#form {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -652,8 +651,8 @@ section#eighthscreen div.textcontent5 span{
     grid-column-end: 3;
 }
 
-#form input{
-    font-family: 'Roboto',Arial,sans-serif;
+#form input {
+    font-family: "Roboto", Arial, sans-serif;
     line-height: 1.5;
     padding-left: 20px;
     width: 80%;
@@ -668,8 +667,8 @@ section#eighthscreen div.textcontent5 span{
     color: white;
 }
 
-#form button{
-    font-family: 'Roboto',Arial,sans-serif;
+#form button {
+    font-family: "Roboto", Arial, sans-serif;
     line-height: 1.5;
     width: 80%;
     height: 52px;
