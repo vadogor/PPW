@@ -202,6 +202,7 @@ section#secondscreen img {
     background-repeat: no-repeat;
     background-position-y: 40%;
     background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 50px;
 }
 
 .textcontent3 {
@@ -323,9 +324,9 @@ section#fifthscreen div.textcontent5 span {
 
 .pricecard {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr auto auto auto;
+    grid-template-rows: 1fr auto auto auto auto auto;
     width: 80%;
-    height: 120vh;
+    height: auto;
     padding: 40px 30px;
     border: gray;
     border-width: 1px;
@@ -571,6 +572,7 @@ section#sixthscreen div.textcontent6 span {
     width: 100%;
     height: 70vh;
     background-color: white;
+    margin-bottom: 40px;
 }
 
 #eighthscreen div {
